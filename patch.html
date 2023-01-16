@@ -1,0 +1,20 @@
+<script>
+//var pattern = /^[a-zA-Z0-9!#$@%^&*()_+\-=\[\]{};':"\\|,.<>\/?]*$/
+//[\w] is the same as [a-zA-Z0-9_]
+var pattern = /[a-z]+\/b\//;
+
+var qry = 'a/b/';
+if(qry.match(pattern)) {
+    alert('pattern: valid');
+}
+else{
+    alert('pattern: invalid');
+}
+// if(pattern.test(qry)) {
+//     alert('test: valid');
+// }
+// else{
+//     alert('test: invalid');
+// }
+
+</script>

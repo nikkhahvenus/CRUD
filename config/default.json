@@ -1,0 +1,12 @@
+{
+    "jwtPrivateKey": "" ,
+    "db": "mongodb://localhost/CRUD",
+    "dbLogPath" : "mongodb://localhost:27017/logs",
+    "pageSize" : 10,
+    "limitationsOfNames" : {  "min" : 3 ,  "max" : 50 },
+    "limitationsOfPath" : {  "min" : 5 ,  "max" : 100 },
+    "specificExtraCharsForNames" : "- _",
+    "specificExtraCharsForImagePath" : "- _/:.",
+    "testStatus" : false
+
+}

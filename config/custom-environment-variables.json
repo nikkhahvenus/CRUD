@@ -1,0 +1,4 @@
+{
+    "jwtPrivateKey": "CRUD_jwtPrivateKey",
+    "db":"CRUD_db"
+}
